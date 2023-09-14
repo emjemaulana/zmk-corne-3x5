@@ -32,8 +32,8 @@
 // | SHFT |     |     |     |     |     |   |     |     |     |     |     |      |
 //                    | GUI |     | SPC |   | ENT |     | ALT |
                         bindings = <
-   &trans    &kp LG(N1) &kp LG(N2)    &kp LG(N3)    &kp LG(N4)     &kp LG(N5)        &kp trans  &kp HOME   &kp PG_DN    &kp PG_UP    &kp END    &trans
-   &trans    &kp LSHFT  &kp LCTRL     &kp LALT      &kp LGUI       &trans            &kp trans  &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT  &trans
+   &trans    &kp LG(N1) &kp LG(N2)    &kp LG(N3)    &kp LG(N4)     &kp LG(N5)        &trans     &kp HOME   &kp PG_DN    &kp PG_UP    &kp END    &trans
+   &trans    &kp LSHFT  &kp LCTRL     &kp LALT      &kp LGUI       &trans            &trans     &kp LEFT   &kp DOWN     &kp UP       &kp RIGHT  &trans
    &trans    &kp K_UNDO &kp C_AC_CUT  &kp C_AC_COPY &kp C_AC_PASTE &kp C_AC_REDO     &kp C_PP   &kp C_PREV &kp C_VOL_DN &kp C_VOL_UP &kp C_NEXT &trans
                                    &none      &none      &mo 3          &kp RET    &kp BSPC   &kp DEL
                         >;
