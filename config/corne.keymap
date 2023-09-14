@@ -22,7 +22,7 @@
    &trans   &kp Q       &kp W       &kp F       &kp P         &kp B       &kp J   &kp L        &kp U      &kp Y       &kp SQT     &trans
    &trans   &mt LSHFT A &mt LCTRL R &mt LALT S  &mt LGUI T    &kp G       &kp K   &mt LGUI N   &mt LALT E &mt LCTRL I &mt LSHFT O &trans
    &trans   &kp Z       &kp X       &kp C       &kp D         &kp V       &kp M   &kp H        &kp COMMA  &kp DOT     &kp FSLH    &trans
-                                    &kp ESC     &mo 1         &mo 2     &kp RET &kp SPACE &kp DEL
+                                    &kp ESC     &mo 1         &mo 2       &kp RET &kp SPACE    &kp DEL
                         >;
                 };
                 lower_layer {
