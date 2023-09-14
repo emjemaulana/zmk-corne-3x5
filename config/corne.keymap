@@ -9,19 +9,6 @@
 #include <dt-bindings/zmk/bt.h>
 
 / {
-     behaviors {
-        lh_pht: left_hand_positional_hold_tap {
-            compatible = "zmk,behavior-hold-tap";
-            label = "LEFT_POSITIONAL_HOLD_TAP";
-            #binding-cells = <2>;
-            flavor = "tap-unless-interrupted";
-            tapping-term-ms = <100>;                        // <---[[produces tap if held longer than tapping-term-ms]]
-            quick-tap-ms = <200>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <5 6 7 8 9 10>;    // <---[[right-hand keys]]
-        };
-    };
-
         keymap {
                 compatible = "zmk,keymap";
 
@@ -33,7 +20,7 @@
 //                    | GUI | LWR | SPC |   | ENT | RSE  | ALT |
                         bindings = <
    &trans   &kp Q       &kp W       &kp F       &kp P         &kp B       &kp J   &kp L        &kp U      &kp Y       &kp SQT    &trans
-   &trans   &lh_pht LSHFT A &lh_pht LCTRL R &lh_pht LALT S  &lh_pht LGUI T    &kp G       &kp M   &lh_pht LGUI N   &lh_pht LALT E &lh_pht LCTRL I &lh_pht LSHFT O &trans
+   &trans   &mt LSHFT A &mt LCTRL R &mt LALT S  &mt LGUI T    &kp G       &kp M   &mt LGUI N   &mt LALT E &mt LCTRL I &mt LSHFT O &trans
    &trans LSHFT &kp Z &kp X &kp C &kp V &kp B   &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &trans
                   &kp LGUI &mo 1 &kp SPACE   &kp RET &mo 2 &kp RALT
                         >;
